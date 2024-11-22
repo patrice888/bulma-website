@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html class="theme-dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dagdoel Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="hero is-link section has-text-centered">
+        <div class="hero-body container">
+            <h1 class="title">Vul je dagdoelen van vandaag in ✍️</h1>
+            <div class="field is-flex is-justify-content-center ">
+                <div class="control">
+                    <input class="input mt-3" type="text" placeholder=">">
+                    <div class="field">
+                        <p class="control">
+                            <span class="select mt-3">
+                                <select>
+                                    <option selected>kies tijd 🕒</option>
+                                    <option>07:00</option>
+                                    <option>08:00</option>
+                                    <option>09:00</option>
+                                    <option>10:00</option>
+                                    <option>11:00</option>
+                                    <option>12:00</option>
+                                    <option>13:00</option>
+                                    <option>14:00</option>
+                                    <option>15:00</option>
+                                    <option>16:00</option>
+                                    <option>17:00</option>
+                                </select>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <button class="button ml-3 is-link is-inverted">opslaan</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="section">
+        <div class="container">
+            <h1 class="title has-text-centered mb-6">Dagdoelen van vandaag</h1>
+            <div class="box mb-3">
+                <section class="media">
+                    <div class="media-left">
+                        <input type="checkbox" class="checkbox mt-2">
+                    </div>
+                    <div class="media-content">
+                        <div class="content">
+                            <p><strong>Dagdoel 1:</strong> sporten</p>
+                        </div>
+                    </div>
+                    <div class="media-right">
+                        <span class="tag is-inverted">07:00</span>
+                    </div>
+                </section>
+            </div>
+
+            <div class="box mb-3">
+                <section class="media">
+                    <div class="media-left">
+                        <input type="checkbox" class="checkbox mt-2">
+                    </div>
+                    <div class="media-content">
+                        <div class="content">
+                            <p><strong>Dagdoel 2:</strong> standup meeting</p>
+                        </div>
+                    </div>
+                    <div class="media-right">
+                        <span class="tag is-inverted">10:30</span>
+                    </div>
+                </section>
+            </div>
+
+            <div class="box mb-5">
+                <section class="media">
+                    <div class="media-left">
+                        <input type="checkbox" class="checkbox mt-2">
+                    </div>
+                    <div class="media-content">
+                        <div class="content">
+                            <p><strong>Dagdoel 3:</strong> presentatie geven</p>
+                        </div>
+                    </div>
+                    <div class="media-right">
+                        <span class="tag is-inverted">12:30</span>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <h3 class="mb-3 is-family-monospace">progress bar:</h3>
+        <progress class="progress is-primary" value="15" max="100">
+        </progress>
+    </section>
+
+    <section class="section is-small hero is-link section has-text-centered">
+        <h1 class="title">Coaches portaal🔒</h1>
+        <h2 class="subtitle mt-3">
+            voorgestelde dagdoel van een student kun je <strong>goedkeuren</strong> of <strong>afkeuren</strong>
+        </h2>
+    </section>
+
+    <div class="box skeleton-block mb-3 mt-5">
+        <section class="media">
+            <div class="media-left is-white">
+                <span class="icon">
+                    <i class="fas fa-home"></i>
+                </span>
+            </div>
+            <div class="media-content">
+                <div class="content">
+                    <p><strong>Dagdoel 1:</strong> sporten</p>
+                </div>
+            </div>
+            <div class="media-right">
+                <div class="buttons has-addons">
+                    <button class="button is-success is-selected">Yes</button>
+                    <button class="button">No</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="box skeleton-block mb-3">
+        <section class="media">
+            <div class="media-left is-white">
+                <span class="icon">
+                    <i class="fas fa-home"></i>
+                </span>
+            </div>
+            <div class="media-content">
+                <div class="content">
+                    <p><strong>Dagdoel 2:</strong> standup meeting</p>
+                </div>
+            </div>
+            <div class="media-right">
+                <div class="buttons has-addons">
+                    <button class="button">Yes</button>
+                    <button class="button is-selected is-danger">No</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="box skeleton-block mb-3">
+        <section class="media">
+            <div class="media-left is-white">
+                <span class="icon">
+                    <i class="fas fa-home"></i>
+                </span>
+            </div>
+            <div class="media-content">
+                <div class="content">
+                    <p><strong>Dagdoel 3:</strong> presentatie geven</p>
+                </div>
+            </div>
+            <div class="media-right">
+                <div class="buttons has-addons">
+                    <button class="button">Yes</button>
+                    <button class="button">No</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p><strong>Website</strong> by Patrice</p>
+        </div>
+    </footer>
+</body>
+
+</html>
